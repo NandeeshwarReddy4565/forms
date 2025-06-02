@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Course Registration From</h1>
+    <form>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <table>
+          <tr>
+            <td><label for="FN"></label>First Name</td>
+            <td><input type="text" placeholder="Nandeeshwar Reddy" /></td>
+          </tr>
+          <tr>
+            <td><label for="Ln"></label>Last Name</td>
+            <td><input type="text" placeholder="Mukkarla" /></td>
+          </tr>
+          <tr>
+            <td><label for="MN"></label>Mobile Number</td>
+            <td><input type="tel" placeholder="8985895469" /></td>
+          </tr>
+          <tr>
+            <td><label for="EId"></label>Email Id</td>
+            <td><input type="email" placeholder="nandhu45655@gmail.com" /></td>
+          </tr>
+          <tr>
+            <td><label for="Pass"></label>Password</td>
+            <td><input type="password" /></td>
+          </tr>
+          <tr>
+            <td><label for="Cpass"></label>Conform Password</td>
+            <td><input type="password" /></td>
+          </tr>
+          <tr>
+            <td><label for="dob"></label>DOB</td>
+            <td><input type="date" /></td>
+          </tr>
+          <tr>
+            <td><label for="gen"></label>Gender</td>
+            <td>
+              <input type="radio" value="Male" name="gen" />Male
+              <input type="radio" value="Female" name="gen" />Female
+              <input type="radio" value="Others" name="gen" />Others
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Sc"></label>Select Country</td>
+            <td>
+              <select name="Country">
+                <option value="IND">INDIA</option>
+                <option value="USA">USA</option>
+                <option value="RUS">RUSSIA</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Up"></label>Upload Picture</td>
+            <td><input type="file" /></td>
+          </tr>
+          <tr>
+            <td><input type="reset" /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Course Details</legend>
+        <table>
+          <tr>
+            <td><label for="SC">Select Course</label></td>
+            <td>
+              <select name="Course" id="">
+                <option value="JFWD">Java Full Stack Web</option>
+                <option value="PFWD">python Full Stack</option>
+                <option value="MStack">MERN Full Stack</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Dm">Delivery Mode</label></td>
+            <td>
+              <input type="radio" value="O" name="Dm" /> Online
+              <input type="radio" value="Of" name="Dm" /> Offline
+            </td>
+          </tr>
+        </table>
+        <label for="com">Comments</label><br />
+        <textarea rows="5px" cols="50px" id=""></textarea> <br />
+        <input type="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
